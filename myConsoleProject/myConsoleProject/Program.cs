@@ -1,12 +1,14 @@
 ﻿using System;
 
-class Sample_Application
-
+namespace myConsoleProject
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Hello World!");
-        Console.WriteLine("Welcome to C# programming.");
-        Console.WriteLine("This is a simple console application.");
+        static void Main()
+        {
+            Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello, " + name + "! Welcome to C# programming.");
+        }
     }
 }
