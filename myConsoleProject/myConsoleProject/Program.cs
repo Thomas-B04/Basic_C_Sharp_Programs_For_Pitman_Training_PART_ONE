@@ -6,9 +6,9 @@ namespace myConsoleProject
     {
         static void Main()
         {
-            Console.WriteLine("What is your name?");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hello, " + name + "! Welcome to C# programming.");
+            Console.WriteLine("What's your name?");
+            string User_Name = Console.ReadLine();
+            Console.WriteLine($"Hello, {User_Name}! Welcome to C# programming.");
         }
     }
 }
